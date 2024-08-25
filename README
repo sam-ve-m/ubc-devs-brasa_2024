@@ -1,0 +1,16 @@
+
+# Steps to run
+
+1. Start a mongo local database.
+
+```
+docker run -dp 27017:27017 mongo
+```
+
+2. Create a file named .env based on the .env.example.
+
+3. Run the Api
+
+```
+python api/app.py
+```
